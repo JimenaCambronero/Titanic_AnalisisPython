@@ -23,7 +23,6 @@
         <li><strong>Embarked</strong>: Puerto de embarque (C = Cherbourg, Q = Queenstown, S = Southampton).</li>
     </ul>
     <p>Este conjunto de datos es ideal para explorar temas como la supervivencia de los pasajeros en relación con su clase, edad, género y otras características.</p>
-
     <h2>Contenido del Repositorio:</h2>
     <img src="Imagenes/Titanic.jpg" alt="Titanic">
     <ul>
@@ -32,10 +31,8 @@
         <li><strong>Como imputar Dato Faltantes</strong></li>
         <li><strong>Selección de Características</strong></li>
     </ul>
-
     <h2>Exploración del DataSet</h2>
     <img src="Imagenes/Datos_Titanic.jpg" alt="Datos del Titanic">
-
     <h3>Cómo Utilizar Este Repositorio:</h3>
     <ol>
         <li><strong>Clona este repositorio en tu máquina local</strong>:
@@ -48,9 +45,7 @@
         <li><strong>Experimenta con el código y los datos por tu cuenta</strong> para obtener una comprensión más profunda.</li>
     </ol>
     <p>Se utilizan las librerías <strong>pandas</strong>, <strong>numpy</strong>, <strong>matplotlib</strong> y <strong>seaborn</strong> para el análisis y la visualización de los datos. Se realizan gráficos para mejorar la visualización del análisis.</p>
-
     <p>Si te gusta este repositorio, puedes mostrar tu apoyo haciendo clic en el botón ⭐️ y compartiéndolo. 🦄</p>
-
     <p>👩‍💻 ¡Muchas gracias y saludos!</p>
 </body>
 </html>
