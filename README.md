@@ -1,53 +1,60 @@
-<h1> Análisis DatSet Titanic </h1> 🚢 
+Claro, aquí tienes el contenido en formato HTML, incluyendo la aclaración sobre el uso de las librerías pandas, numpy, matplotlib y seaborn, y la realización de gráficos para mejorar la visualización del análisis:
 
+```html
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Análisis del Conjunto de Datos del Titanic 🚢</title>
+</head>
+<body>
+    <h1>Análisis del Conjunto de Datos del Titanic 🚢</h1>
+    <p>El conjunto de datos del Titanic contiene información detallada sobre los pasajeros del trágico viaje del RMS Titanic en 1912. Este análisis nos permitirá explorar diversos aspectos relacionados con la supervivencia de los pasajeros y cómo diferentes variables influyeron en las tasas de supervivencia. A continuación, se presenta una descripción de las variables más comunes en este conjunto de datos:</p>
+    <ul>
+        <li><strong>PassengerId</strong>: Identificador único para cada pasajero.</li>
+        <li><strong>Survived</strong>: Indica si el pasajero sobrevivió al hundimiento (0 = No, 1 = Sí).</li>
+        <li><strong>Pclass</strong>: Clase de viaje del pasajero (1 = Primera, 2 = Segunda, 3 = Tercera).</li>
+        <li><strong>Name</strong>: Nombre del pasajero.</li>
+        <li><strong>Sex</strong>: Género del pasajero.</li>
+        <li><strong>Age</strong>: Edad del pasajero (algunos valores pueden estar faltantes).</li>
+        <li><strong>SibSp</strong>: Número de hermanos/esposas a bordo.</li>
+        <li><strong>Parch</strong>: Número de padres/hijos a bordo.</li>
+        <li><strong>Ticket</strong>: Número de boleto del pasajero.</li>
+        <li><strong>Fare</strong>: Tarifa de pasaje pagada.</li>
+        <li><strong>Cabin</strong>: Número de camarote (muchos valores faltantes).</li>
+        <li><strong>Embarked</strong>: Puerto de embarque (C = Cherbourg, Q = Queenstown, S = Southampton).</li>
+    </ul>
+    <p>Este conjunto de datos es ideal para explorar temas como la supervivencia de los pasajeros en relación con su clase, edad, género y otras características.</p>
 
-El conjunto de datos del Titanic contiene información sobre los pasajeros del histórico viaje del RMS Titanic en 1912. Algunas de las variables comunes presentes en este conjunto de datos son:
+    <h2>Contenido del Repositorio:</h2>
+    <img src="Imagenes/Titanic.jpg" alt="Titanic">
+    <ul>
+        <li><strong>Análisis Exploratorio de Datos y Técnicas de Extracción de Características</strong></li>
+        <li><strong>Visualización de Datos</strong></li>
+        <li><strong>Como imputar Dato Faltantes</strong></li>
+        <li><strong>Selección de Características</strong></li>
+    </ul>
 
-    PassengerId: Un identificador único para cada pasajero.
-    Survived: Indica si el pasajero sobrevivió al hundimiento (0 = No, 1 = Sí).
-    Pclass: La clase de viaje del pasajero (1 = Primera, 2 = Segunda, 3 = Tercera).
-    Name: El nombre del pasajero.
-    Sex: El género del pasajero.
-    Age: La edad del pasajero (algunos valores pueden estar faltantes).
-    SibSp: El número de hermanos/esposas a bordo.
-    Parch: El número de padres/hijos a bordo.
-    Ticket: El número de boleto del pasajero.
-    Fare: La tarifa de pasaje pagada.
-    Cabin: El número de camarote (muchos valores faltantes).
-    Embarked: El puerto de embarque (C = Cherbourg, Q = Queenstown, S = Southampton).
+    <h2>Exploración del DataSet</h2>
+    <img src="Imagenes/Datos_Titanic.jpg" alt="Datos del Titanic">
 
-Conjunto de datos interesante para explorar temas como la supervivencia de pasajeros en relación con su clase, edad, género y otras características. 
+    <h3>Cómo Utilizar Este Repositorio:</h3>
+    <ol>
+        <li><strong>Clona este repositorio en tu máquina local</strong>:
+            <pre><code>git clone https://github.com/tu_usuario/titanic-dataset-analysis.git</code></pre>
+        </li>
+        <li><strong>Abre el Jupyter Notebook en tu entorno de trabajo de Python</strong>:
+            <pre><code>jupyter notebook</code></pre>
+        </li>
+        <li><strong>Sigue las instrucciones y ejecuta las celdas de código paso a paso</strong> para comprender los conceptos y técnicas presentadas.</li>
+        <li><strong>Experimenta con el código y los datos por tu cuenta</strong> para obtener una comprensión más profunda.</li>
+    </ol>
+    <p>Se utilizan las librerías <strong>pandas</strong>, <strong>numpy</strong>, <strong>matplotlib</strong> y <strong>seaborn</strong> para el análisis y la visualización de los datos. Se realizan gráficos para mejorar la visualización del análisis.</p>
 
-<h3> Contenido del Repositorio:<h3>
+    <p>Si te gusta este repositorio, puedes mostrar tu apoyo haciendo clic en el botón ⭐️ y compartiéndolo. 🦄</p>
 
-<img src = "/Users/jimenacambronero/Desktop/Proyectos para Portfolio/Titanic/Imgenes/Titanic.jpg" 
-style="margin-left:auto; margin-right:auto"
-/>
-
-Análisis explorario de Datos y Técnicas de extracción de características.
-
-Visualización de datos.
-
-Imputación de datos faltantes.
-
-Selección de características.
-
-Regresión Logística.
-
-<h2> Exploración del DataSet <h2>
-
-<img src = "/Users/jimenacambronero/Desktop/Proyectos para Portfolio/Titanic/Imgenes/Datos_Titanic.jpg" style = "width:600px;height:350px"/>
-
-<h4> Cómo Utilizar Este Repositorio: <h4>
-
-Clona este repositorio en tu máquina local.
-
-Abre el Jupyter Notebook en tu entorno de trabajo de Python.
-
-Sigue las instrucciones y ejecuta las celdas de código paso a paso para comprender los conceptos y técnicas presentadas.
-
-Experimenta con el código y los datos por tu cuenta para obtener una comprensión más profunda.
-
-# <h4> Si te gusta alguno de los repositorios, podes hacer clic para darme tu apoyo en el ⭐️ botón y correr la voz 🦄⁣ <h4>
-⁣
-👩‍💻 Muchas gracias y Saludos!⁣
+    <p>👩‍💻 ¡Muchas gracias y saludos!</p>
+</body>
+</html>
+```
