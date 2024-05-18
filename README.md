@@ -1,6 +1,3 @@
-Claro, aquí tienes el contenido en formato HTML, incluyendo la aclaración sobre el uso de las librerías pandas, numpy, matplotlib y seaborn, y la realización de gráficos para mejorar la visualización del análisis:
-
-```html
 <!DOCTYPE html>
 <html lang="es">
 <head>
@@ -57,4 +54,3 @@ Claro, aquí tienes el contenido en formato HTML, incluyendo la aclaración sobr
     <p>👩‍💻 ¡Muchas gracias y saludos!</p>
 </body>
 </html>
-```
