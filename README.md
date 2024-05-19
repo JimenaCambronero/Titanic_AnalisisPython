@@ -43,11 +43,7 @@
         <li><strong>Sigue las instrucciones y ejecuta las celdas de código paso a paso</strong> para comprender los conceptos y técnicas presentadas.</li>
         <li><strong>Experimenta con el código y los datos por tu cuenta</strong> para obtener una comprensión más profunda.</li>
     </ol>
-<<<<<<< HEAD
     <p>Se utilizan las librerías <strong>Pandas</strong>, <strong>NumPy</strong>, <strong>Matplotlib</strong> y <strong>Seaborn</strong> para el análisis y la visualización de los datos. Se realizan gráficos para mejorar la visualización del análisis.</p>
-=======
-    <p>Se utilizan las librerías <strong>pandas</strong>, <strong>numpy</strong>, <strong>matplotlib</strong> y <strong>seaborn</strong> para el análisis y la visualización de los datos. Se realizan gráficos para mejorar la visualización del análisis.</p>
->>>>>>> 339d1546716c9a9079e1a7bc10e6cda315e0b97f
     <p>Si te gusta este repositorio, puedes mostrar tu apoyo haciendo clic en el botón ⭐️ y compartiéndolo. 🦄</p>
     <p>👩‍💻 ¡Muchas gracias y saludos!</p>
 </body>
